@@ -8,7 +8,7 @@ public double randomNumber(int seed) {
         return Math.random() * seed * -1;
     }
 }
-*/
+
 I keep getting an error message telling me that my method must return a value of type double. What's wrong with my code?
 
 My answer:  Math.random returns a value of type int. You need to cast it to a double. 
