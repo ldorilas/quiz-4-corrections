@@ -1,5 +1,5 @@
 # quiz-4-corrections
-/**Question 4: Consider the following method definition.
+Question 4: Consider the following method definition.
 
 public double randomNumber(int seed) {
     if (seed > 1000) {
