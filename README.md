@@ -15,6 +15,7 @@ public double randomNumber(int seed) {
 I keep getting an error message telling me that my method must return a value of type double. What's wrong with my code?
 
 My answer:  Math.random returns a value of type int. You need to cast it to a double. 
+
 Correct Answer: For seed values less than or equal to 500, the method does not return a value.
 
 Reasoning: 
@@ -34,8 +35,11 @@ public double mystery(double x) {
 ```
 Which single line of code will adequately complete this method?
 
-My answer: return Math.round(x);
-Correct answer: return Math.ceil(x);
+My answer: return Math.round(x); / return Math.ceil(x);
 
-Reasoning: 
+Correct answer: (only) return Math.ceil(x);
+
+Reasoning: The ceiling function in the Math class only rounds up, while the round function rounds numbers both up and down. The question requires that the parameter be returned as the next largest whole number, so if the parameter was a oduble such as 3.2, the ceiling function would round it to 4 as opposed to 3.
+
+
 
