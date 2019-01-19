@@ -1,6 +1,6 @@
 # Quiz 4 Corrections: APCSA
 
-[Question 4:]
+*Question 4:*
 Consider the following method definition.
 
 ```
