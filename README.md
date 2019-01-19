@@ -18,7 +18,10 @@ My answer:  Math.random returns a value of type int. You need to cast it to a do
 
 Correct Answer: For seed values less than or equal to 500, the method does not return a value.
 
+`
 Reasoning: 
+
+`
 
 Question 5: 
 Consider the following requirements for a method I need to write.
@@ -39,13 +42,16 @@ My answer: return Math.round(x); / return Math.ceil(x);
 
 Correct answer: (only) return Math.ceil(x);
 
-Reasoning: The ceiling function in the Math class only rounds up, while the round function rounds numbers both up and down. The question requires that the parameter be returned as the next largest whole number, so if the parameter was a oduble such as 3.2, the ceiling function would round it to 4 as opposed to 3.
+Reasoning: 
+`
+The ceiling function in the Math class only rounds up, while the round function rounds numbers both up and down. The question requires that the parameter be returned as the next largest whole number, so if the parameter was a oduble such as 3.2, the ceiling function would round it to 4 as opposed to 3.
+`
 
 Question 11: 
 
-`
+``
 When writing a method, you must always include a(n) {static identifier, access ideitifier, dynamic key, visibility indicator}, a(n) {parameter types, return value, class definition symbol, return type}, and the method name (in that order). Together, this is known as the method's {method signature, method identifier}.
-`
+``
 
 My answer(s): access identifier, return type, method identifier
 
