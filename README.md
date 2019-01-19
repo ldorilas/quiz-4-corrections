@@ -1,6 +1,6 @@
 # Quiz 4 Corrections: APCSA
 
-Question 4: 
+[Question 4:]
 Consider the following method definition.
 
 ```
@@ -48,6 +48,7 @@ When writing a method, you must always include a(n) {static identifier, access i
 `
 
 My answer(s): access identifier, return type, method identifier
-correcter answer(s): access identifier, return type, method signature
+
+correct answer(s): access identifier, return type, method signature
 
 Reasoning: 
