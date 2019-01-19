@@ -1,6 +1,6 @@
 # Quiz 4 Corrections: APCSA
 
-###Question 4: 
+##Question 4: 
 Consider the following method definition.
 
 ```
@@ -18,7 +18,7 @@ My answer:  Math.random returns a value of type int. You need to cast it to a do
 
 Correct Answer: For seed values less than or equal to 500, the method does not return a value.
 
-###Question 5: 
+##Question 5: 
 Consider the following requirements for a method I need to write.
 
 - Accepts a single parameter
