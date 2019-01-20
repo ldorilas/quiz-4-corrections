@@ -1,6 +1,7 @@
 # Quiz 4 Corrections: APCSA
 
 *Question 4:*
+
 Consider the following method definition.
 
 ```
@@ -24,7 +25,9 @@ Reasoning:
 By multiplying the return value by -1 in the else if loop, 
 `
 
+
 *Question 5:*
+
 Consider the following requirements for a method I need to write.
 
 - Accepts a single parameter
@@ -47,6 +50,7 @@ Reasoning:
 `
 The ceiling function in the Math class only rounds up, while the round function rounds numbers both up and down. The question requires that the parameter be returned as the next largest whole number, so if the parameter was a oduble such as 3.2, the ceiling function would round it to 4 as opposed to 3.
 `
+
 
 *Question 11:* 
 
@@ -91,5 +95,5 @@ public void multiply(int a, int b, int c) {
 
 Reasoning:
 `
-The question clearly stated that the method should *not* return a value. Using 'System.out.println(a * b * c)' prints the value as opposed to simply using the return keyword to return a value.
+The question clearly stated that the method should not return a value. The correct answer uses 'System.out.println(a * b * c)' to print the product of the three integers as opposed to using the return keyword to return a value.
 `
