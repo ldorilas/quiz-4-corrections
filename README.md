@@ -18,12 +18,13 @@ My answer:  Math.random returns a value of type int. You need to cast it to a do
 
 Correct Answer: For seed values less than or equal to 500, the method does not return a value.
 
-`
+
 Reasoning: 
-
+`
+By multiplying the return value by -1 in the else if loop, 
 `
 
-Question 5: 
+*Question 5:*
 Consider the following requirements for a method I need to write.
 
 - Accepts a single parameter
@@ -47,14 +48,48 @@ Reasoning:
 The ceiling function in the Math class only rounds up, while the round function rounds numbers both up and down. The question requires that the parameter be returned as the next largest whole number, so if the parameter was a oduble such as 3.2, the ceiling function would round it to 4 as opposed to 3.
 `
 
-Question 11: 
+*Question 11:* 
 
 ``
 When writing a method, you must always include a(n) {static identifier, access ideitifier, dynamic key, visibility indicator}, a(n) {parameter types, return value, class definition symbol, return type}, and the method name (in that order). Together, this is known as the method's {method signature, method identifier}.
 ``
 
-My answer(s): access identifier, return type, method identifier
+My answers: access identifier, return type, method identifier
 
-correct answer(s): access identifier, return type, method signature
+correct answers: access identifier, return type, method signature
 
 Reasoning: 
+`
+
+`
+
+*Question 15:*
+
+Consider the following method definition.
+
+```
+public long multiply(int a, int b, int c) {
+
+}
+```
+
+Modify the following method definition so that it accepts three integers in the form of parameters, computes their product, and prints it to the console. The method should not return a value.
+
+My answer: 
+```
+public void multiply(int a, int b, int c) {
+    return a * b * c;
+}
+```
+
+Correct answer: 
+```
+public void multiply(int a, int b, int c) {
+    System.out.println(a * b * c);
+}
+```
+
+Reasoning:
+`
+The question clearly stated that the method should *not* return a value. Using 'System.out.println(a * b * c)' prints the value as opposed to simply using the return keyword to return a value.
+`
