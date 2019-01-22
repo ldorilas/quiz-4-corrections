@@ -15,8 +15,16 @@ public class Change {
     int nickel = 5;
     int dime = 10;
     int quarter = 25;
-    if (change <= 0.05) {
-      coins = penny *  
+    int amount;
+    if (change >= 0.01 && change < 0.05) {
+        penny = change * 100
+        coins = 1
+      }
+    else if (change >= 0.05 && change < 0.10) {
+        
+        coins = 2;
+        
+      }
     }
   }
 }
