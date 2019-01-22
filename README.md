@@ -22,7 +22,7 @@ Correct Answer: For seed values less than or equal to 500, the method does not r
 
 Reasoning: 
 `
-By multiplying the return value by -1 in the else if loop, 
+By multiplying the return value by -1 in the else if loop, the return type is no longer a double.
 `
 
 
@@ -64,7 +64,7 @@ correct answers: access identifier, return type, method signature
 
 Reasoning: 
 `
-
+A method identifier is the name of a variable, method, or class, not the entirety of a method and its components.
 `
 
 *Question 15:*
